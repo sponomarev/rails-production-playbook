@@ -2,9 +2,13 @@
 common_packages:
   - epel-release
   - htop
-  - mc
-  - git
   - iftop
-  - wget
+  - bind-utils
+  - traceroute
+  - whois
   - screen
   - vim
+  - nano
+  - mc
+  - git
+  - wget
