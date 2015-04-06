@@ -1,0 +1,5 @@
+[application]
+app.vagrant.local ansible_ssh_host=192.168.15.10
+
+[database]
+db.vagrant.local ansible_ssh_host=192.168.15.11
