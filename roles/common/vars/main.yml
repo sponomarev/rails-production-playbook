@@ -1,0 +1,10 @@
+---
+common_packages:
+  - epel-release
+  - htop
+  - mc
+  - git
+  - iftop
+  - wget
+  - screen
+  - vim

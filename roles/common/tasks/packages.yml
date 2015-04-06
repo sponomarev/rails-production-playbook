@@ -1,0 +1,7 @@
+---
+- name: upgrade all packages
+  yum: name=* state=latest
+
+- name: install basic software
+  yum: name={{ item }} state=latest
+  with_items: common_packages
